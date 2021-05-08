@@ -1,0 +1,19 @@
+h1{
+    background-color: aqua;
+    font-size: 70px;
+    font-family: cursive;
+    margin: 10px 50px 10px 50px;
+    text-shadow: darkgreen;
+
+}
+body{
+    background-color: cadetblue;
+}
+th,td{
+    background-color: blue;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: cadetblue;
+
+}
+

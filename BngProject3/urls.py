@@ -23,5 +23,14 @@ urlpatterns = [
     #path('pavan',views.pavan),
     url(r'^pavan',include('Django_Templates.urls')),
     url(r'^home',include('Template_Inheritence.urls')),
+    url(r'^Cookie',include('session_management_Authentication.urls')),
+    url(r'^session',include('Session_Management.urls')),
+
+
+
+
+
+
+
 ]
 

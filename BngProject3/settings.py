@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'Django_Templates',
     'Template_Inheritence',
     'session_management_Authentication',
+    'Session_Management_1',
 ]
 
 MIDDLEWARE = [

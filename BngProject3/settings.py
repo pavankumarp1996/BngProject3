@@ -46,6 +46,8 @@ INSTALLED_APPS = [
     'Template_Inheritence',
     'session_management_Authentication',
     'Session_Management_1',
+    'Session_Forms',
+    'Session_Tables_From_Session_Object',
 ]
 
 MIDDLEWARE = [

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+</head>
+<body>
+<h1>Thanks For Providing The Information Cross Check Once</h1><hr>
+<ul>
+    {% for keys,values in request.session.items %}
+    <li><h1>{{ keys|upper }}:{{ values|title }}</h1></li>
+    {% endfor  %}
+</ul>
+</body>
+</html>
+
+
+
+
